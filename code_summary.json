@@ -1,0 +1,40 @@
+{
+  "directories": [
+    "src/",
+    "src/components/",
+    "src/components/calculator/",
+    "src/store/",
+    "src/types/"
+  ],
+  "files": [
+    "src/App.tsx",
+    "src/types/calculator.ts",
+    "src/store/calculatorStore.ts",
+    "src/components/calculator/Calculator.tsx",
+    "src/components/calculator/CalculatorButton.tsx",
+    "src/components/calculator/CalculatorDisplay.tsx"
+  ],
+  "components": [
+    "Calculator",
+    "CalculatorButton",
+    "CalculatorDisplay"
+  ],
+  "types": [
+    "Operation",
+    "CalculatorState"
+  ],
+  "stores": [
+    "useCalculatorStore"
+  ],
+  "interfaces": [
+    "CalculatorStore",
+    "CalculatorButtonProps"
+  ],
+  "mainFeatures": [
+    "Basic arithmetic operations",
+    "Keyboard support",
+    "Animations",
+    "Theme support",
+    "Responsive design"
+  ]
+}
